@@ -1,0 +1,18 @@
+# chatbot through loop----------------->
+
+pair= [
+    ['what is your name', 'my name is lakshya '],
+    ['where are you live', 'i live in jaipur'],
+    ['what are you doing', 'nothing special'],
+    ['are you in job', 'no but i am searching']
+]
+
+while True:
+    a = input('ask any question : ')
+    if a == 'exit':
+        break
+    else:
+        for i in pair:
+            if i[0]==a:
+                print(i[1])
+       
